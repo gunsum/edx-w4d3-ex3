@@ -86,3 +86,25 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+//how to areach array elements ===>finances[index][671099][]..if it is more
+//how many months we figure it out (86 months totally
+const totalMonths  = finances.length;
+console.log(totalMonths)
+
+
+//The net total amount of Profit/Losses over the entire period.
+
+let totalAmount=0;
+
+for(let index=0; index<totalMonths; index++){
+ totalAmount += finances[index][1];
+ console.log(totalAmount);
+}
+
+//we find the average profit changes in losses
+
+for(let i=0; i<totalMonths; i++){
+    for (if i >= 1)
+
+}
+
