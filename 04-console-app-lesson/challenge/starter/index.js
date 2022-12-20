@@ -105,6 +105,6 @@ for(let index=0; index<totalMonths; index++){
 
 for(let i=0; i<totalMonths; i++){
     for (if i >= 1)
-
+    return averageProfit
 }
 
