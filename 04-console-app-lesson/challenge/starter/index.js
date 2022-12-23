@@ -108,3 +108,9 @@ for(let i=0; i<totalMonths; i++){
     return averageProfit
 }
 
+//The average of the **changes** in Profit/Losses over the entire period.
+//  * You will need to track what the total change in profits are from month to month and then find the average.
+ // * (`Total/Number of months`)
+  
+   let changes = totalAmount / totalMonths;
+
